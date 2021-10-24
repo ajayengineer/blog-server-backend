@@ -1,0 +1,67 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background: white;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    border-bottom: 2px solid orange;
+}
+.topLeft, .topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444444;
+    cursor: pointer;
+}
+.topCenter{
+    flex: 6;
+}
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.topList li a{
+    text-decoration: none;
+    color: black;
+}
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.TopSearchIcon{
+    font-size: 18px;
+    color: #666666;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.loginAndRegister{
+    display: flex;
+}
+.loginAndRegister li{
+    list-style: none;
+}
+.loginAndRegister a{
+    margin: 0px 10px;
+    color: inherit;
+    text-decoration: none;
+
+}
